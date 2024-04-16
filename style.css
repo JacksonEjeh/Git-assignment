@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+.first_nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+.first_nav div{
+    height: 50px;
+}
+.playbutton{
+    background-color: #D5D5D5;
+}
+.applelogo{
+    background-color: #E9E9E9;
+}
+.command{
+    background-color: #D5D5D5;
+}
+.second_nav{
+    background-color: #E9E9E9;
+    font-size: 15px;
+}
+.second_nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.second_nav ul li {
+    list-style: none;
+}
+.second_nav ul li a{
+    text-decoration: none;
+    color: black;
+}
